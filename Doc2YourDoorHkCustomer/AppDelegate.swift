@@ -7,19 +7,18 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        var pageControl = UIPageControl.appearance()
-        pageControl.pageIndicatorTintColor = UIColor.whiteColor()
-        pageControl.currentPageIndicatorTintColor = UIColor.blackColor()
+        setupPageControlLookAndFeel()
+        setupParseCredentials()
         
         return true
     }
@@ -46,6 +45,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    private func setupPageControlLookAndFeel() {
+        let pageControl = UIPageControl.appearance()
+        pageControl.pageIndicatorTintColor = UIColor.whiteColor()
+        pageControl.currentPageIndicatorTintColor = UIColor.blackColor()
+    }
+    
+    private func setupParseCredentials() {
+        let keyFile = NSBundle.mainBundle().pathForResource("keys", ofType: "plist")
+        let keysDictionary = NSDictionary(contentsOfFile: keyFile!)
+        let parseApplicationId = keysDictionary?.objectForKey("parseApplicationId") as String
+        let parseClientKey = keysDictionary?.objectForKey("parseClientKey") as String
+        
+        Parse.setApplicationId(parseApplicationId, clientKey: parseClientKey)
+    }
 }
 

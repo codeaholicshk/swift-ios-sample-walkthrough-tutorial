@@ -18,6 +18,7 @@
 		9A06862C1A21940D00112BE0 /* blur_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0686291A21940D00112BE0 /* blur_01.png */; };
 		9A06862D1A21940D00112BE0 /* blur_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A06862A1A21940D00112BE0 /* blur_02.png */; };
 		9A06862E1A21940D00112BE0 /* blur_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A06862B1A21940D00112BE0 /* blur_03.png */; };
+		9A0686301A219B9900112BE0 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A06862F1A219B9900112BE0 /* keys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9A0686291A21940D00112BE0 /* blur_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur_01.png; sourceTree = "<group>"; };
 		9A06862A1A21940D00112BE0 /* blur_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur_02.png; sourceTree = "<group>"; };
 		9A06862B1A21940D00112BE0 /* blur_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur_03.png; sourceTree = "<group>"; };
+		9A06862F1A219B9900112BE0 /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
 		C92517C4CCA96D9BF29F3E44 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EDD1C092FBC3DC3090E4B0C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 				9A06862A1A21940D00112BE0 /* blur_02.png */,
 				9A06862B1A21940D00112BE0 /* blur_03.png */,
 				9A05D6FD1A204A0100755918 /* Info.plist */,
+				9A06862F1A219B9900112BE0 /* keys.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0686301A219B9900112BE0 /* keys.plist in Resources */,
 				9A05D7041A204A0100755918 /* Main.storyboard in Resources */,
 				9A06862E1A21940D00112BE0 /* blur_03.png in Resources */,
 				9A06862D1A21940D00112BE0 /* blur_02.png in Resources */,
