@@ -13,7 +13,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource, UIPageVi
     @IBOutlet weak var backgroundImage: UIImageView!
     
     var _pageViewController: UIPageViewController?
-    let _pageTitles = ["Welcome", "What is it ?", "Find him !"]
+    let _pageTitles = ["Welcome Patient", "How?", "Find Doctor Now !"]
     let _pageImages = ["blur_01.png", "blur_02.png", "blur_03.png"]
     
     override func viewDidLoad() {

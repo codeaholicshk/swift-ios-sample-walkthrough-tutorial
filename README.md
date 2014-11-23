@@ -1,12 +1,14 @@
-# Doc2YourDoorHk
+# Doc2YourDoorHkCustomer
 
 ## Step 1: Tutorial Walkrthrough Scene
 
-TODO
+![iOS Tutorial Screen](docs/tutorial_screen_uipageviewcontroller.gif)
+
 
 ## Step 2: Setup cocoapods and Parse framework
 
-![iOS Tutorial Screen](docs/tutorial_screen_uipageviewcontroller.gif)
+TODO
+
 
 ## Step 3: Sign in with Parse
 
