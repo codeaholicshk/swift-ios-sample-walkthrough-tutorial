@@ -6,7 +6,7 @@ TODO
 
 ## Step 2: Setup cocoapods and Parse framework
 
-TODO
+![iOS Tutorial Screen](docs/tutorial_screen_uipageviewcontroller.gif)
 
 ## Step 3: Sign in with Parse
 
